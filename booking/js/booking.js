@@ -356,6 +356,6 @@ function className(className){
 }
 
 function includeScript(url){
-	document.write('<script type="text/javascript" src="//static.rrob.me/your-trip/js/'+ url + '"></script>'); 
+	document.write('<script type="text/javascript" src="/js/'+ url + '"></script>'); 
 	return false;
 }
